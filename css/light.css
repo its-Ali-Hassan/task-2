@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.leckerli-regular {
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.margin-left{
+    margin-left: 18%;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.td-width{
+    width: 10%;
+}
+
+.td-height{
+    height: 50px    ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav button{
+    background-color: #413839;
+    color: #F5F5DC;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    font-size: 15px;
+}
+
+header nav button:hover{
+    background: #F5F5DC;
+    color: #000;
+}
+
+main .heading{
+    text-align: center;
+    text-transform: capitalize;
+    width: 60%;
+}
+
+header h1{
+    color: #3F704D;
+}
+
+main table {
+    margin: 50px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.bg-color{
+    background-color: #f0f0f0
+}
+
+footer{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 66px;
+}
+
+footer .links img{  
+    height: 30px;
+}
+
+footer .links{
+    display: flex;
+    gap: 20px;
+}
